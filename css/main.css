@@ -1,0 +1,56 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  font-family: Ubuntu;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #18294f;
+}
+
+h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #6c8fe0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a:hover {
+  background: #6c8fe0;
+  color: #fff;
+}
+
+
+
+
